@@ -37,11 +37,7 @@ window.onload = function ()
 			var date = new Date ();
 			
 			infoI++;
-			table.innerHTML += '<tr>'
-				+ '<td>' + infoI + '</td>'
-				+ '<td>' + time + '</td>'
-				+ '<td>' + date.toLocaleTimeString () + '</td>'
-				+ '</tr>';
+			table.innerHTML += '<p><span class="x">' + infoI + '</span><span class="z">' + date.toLocaleTimeString () + '</span><span class="y">' + time + '</span>';
 			
 			table.scrollTop = table.scrollHeight;
 			
@@ -52,6 +48,7 @@ window.onload = function ()
 		{
 			var table = document.getElementById ('info');
 			table.innerHTML = '';
+			infoI = 0;
 			
 			disableButton ('controlClear');
 		}

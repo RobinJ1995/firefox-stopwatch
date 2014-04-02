@@ -6,6 +6,7 @@
     "128": "/img/icon.png",
 	"64": "/img/icon_64px.png"
   },
+  "version": "1.1",
   "developer": {
     "name": "Robin Jacobs",
     "url": "http://www.robinj.be/"

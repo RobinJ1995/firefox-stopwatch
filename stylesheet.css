@@ -9,6 +9,7 @@ body
 	background: #0198DF;
 	color: white;
 	font-size: 18px;
+	font-family: sans-serif;
 }
 #wrapper
 {
@@ -22,6 +23,7 @@ body
 	{
 		text-align: center;
 		font-size: 48px;
+		font-family: serif;
 	}
 		#time
 		{
@@ -36,6 +38,7 @@ body
 		right: 0px;
 		bottom: 166px;
 		left: 0px;
+		font-family: sans-serif;
 	}
 		.glow
 		{
@@ -55,6 +58,25 @@ body
 			display: block;
 			overflow: auto;
 		}
+			#info p
+			{
+				text-align: center;
+				margin: 2px 0px 2px 0px;
+			}
+				#info p .x
+				{
+					float: left;
+					min-width: 28px;
+				}
+				#info p .y
+				{
+					margin-left: 8px;
+					margin-right: 4px;
+				}
+				#info p .z
+				{
+					float: right;
+				}
 		#infoControls
 		{
 			position: absolute;
