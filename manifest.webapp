@@ -1,0 +1,14 @@
+{
+  "name": "Stopwatch",
+  "description": "A simple stopwatch for Firefox OS",
+  "launch_path": "/Main.html",
+  "icons": {
+    "128": "/img/icon.png",
+	"64": "/img/icon_64px.png"
+  },
+  "developer": {
+    "name": "Robin Jacobs",
+    "url": "http://www.robinj.be/"
+  },
+  "default_locale": "en"
+}
